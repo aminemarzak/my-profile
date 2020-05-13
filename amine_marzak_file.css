@@ -1,0 +1,104 @@
+body{
+	background-color: rgba(39,24,126,0.5);
+	color: black;
+	font-family: arial, serif;
+	font-weight: 100;
+	background-image: url(images/profilamine.jpg); /*ca cache le backgroung color*/
+	background-size: 1000px;
+}
+
+p{
+	color: black;
+	font-family: 'roboto', regular 400;
+}
+h3,h2{
+	text-decoration: underline;
+}
+h1{
+	color: rgba(39,24,126,1.0);
+    font-family: 'Pacifico', cursive;;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-weight: 700;
+	line-height: 2.1;/*espace entre deux ligne*/
+	text-decoration: underline;
+}
+h2{
+	color: #873D48;
+}
+h3{
+	color: #664C43;
+}a{
+	transition: color 0.1s ease;/*temp dattente entre avant & apres survol d'1 lien*/
+}
+h4{
+	background-color: rgb(0,0,130);
+	color: rgb(250,250,250);
+}
+/*custom design with class*/
+.img-circle{
+	border-radius: 50%;
+}
+.container{
+	width: 750px;
+	margin: 100px auto;
+	margin-bottom: 50px;
+	padding: 15px 30px;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 0 30px 30px rgba(0,0,0,0.8);
+	border: 4px solid grey;
+}
+@media (max-width: 850px){
+	.container{
+		width: 600px;
+	}
+}
+@media (max-width: 400px){
+	.container{
+		width: 350px;
+	}
+}
+.box-white{
+	border: 4px solid #862929;
+	border-radius: 15px;                        /* Small radius */
+	box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+	margin: 40px 50px;
+	padding: 15px 10px 23px 10px;
+	text-align: center;/*position du text*/
+}
+.button-blue{
+	border-radius: 8px;
+	padding: 13px 20px;
+	background-color: #6B72E1;
+	color: white;
+}
+.button-blue:hover{
+	color: black;
+	font-weight: bold;
+	padding: 13px 16px;
+}
+.list-horizental{
+	list-style: none; /* pour les tirets ou points en debut de kigne*/
+	padding-left: 0px;
+
+}
+.list-horizental li{
+	display: inline;
+	padding: 15px;
+	font-size: 15px;color: black;
+}
+.list-horizental i{
+	font-size: 30px;
+}
+.list-horizental i:hover,a:hover{
+	color: black;
+}
+/*custom design with id*/
+#bordered-img{
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.7);
+}
+#parag-space-butn p{
+	margin-bottom: 30px;
+}
+
